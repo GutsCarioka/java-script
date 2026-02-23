@@ -1,0 +1,14 @@
+Operadores do Java Script: 
+1 - Aritimeticos (Matematica)
+2-  Atribuição 
+3 - Relacionais 
+4 - Logicos 
+5 - ternario 
+
+
+Ordem de precedencia aritimetica
+
+1 - ()
+2 - **
+3 - * / %
+4 - + e - 

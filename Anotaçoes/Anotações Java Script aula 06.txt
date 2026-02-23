@@ -1,0 +1,42 @@
+Anotações Java Script: 
+
+Aula 06 - Java Script
+
+Tipos primitivos Number(Infinity, NaN), String, boolean, null, undefined, object(Array), function
+
+
+Formas de Converter String para numero: 
+
+String para inteiro: Number.parseInt(n) 
+
+String para ponto flutuante: Number.parseFloat(n)
+
+String que o proprio java script decide: Number(n)
+
+
+formas de converter Numero para string: 
+
+Numero para String: 
+
+String(n) 
+n.toString()
+
+Escrever na tela usando js:
+ 
+document = Documento/ arquivo html 
+
+document.write(Teste); 
+
+formatação de números Js
+Ajustar o numero de casas: 
+n1.toFixed(2) //Fixa o numero em apenas duas casas
+
+n1.tofixed(2).reapleace('.', ',') // troca pontos por virgulas e seta para duas casas
+
+n1.tolocalString('pt-BR', (style: 'currency: 'BRL''))
+
+
+
+
+
+

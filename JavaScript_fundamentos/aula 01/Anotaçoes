@@ -1,0 +1,5 @@
+    Meios de escrita na tela por alerta: 
+      
+      window.alert("hello world");
+      window.confirm("Are you sure?");
+      window.prompt("What is your name?");

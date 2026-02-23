@@ -1,0 +1,21 @@
+Eventos Dom 
+
+Atrelar eventos a processos Dom 
+
+Exemplo de Eventos Dom:
+
+Eventos de mouse em cima de uma div
+Mouseenter 
+Mousemove
+mouseDown 
+mouseup
+click
+mouseout
+
+Functions 
+Só executadas quando um evento ou algo ocorre
+
+Expl: 
+function ação(parametros)//nome da function{
+
+}

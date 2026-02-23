@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiro passos com dom</title>
+    <style>
+      body {
+        background-color: aqua;
+        color: white;
+        font: normal 20pt;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Iniciando estudos com Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>
+      Aprendendo a usar o <strong>Dom</strong> em <strong>JavaScript</strong>
+    </p>
+    <div id="msg">Clique em mim</div>
+    <script>
+      /* Alteraçoes utilizando o TagName:
+      var corpo = window.document.body;
+      var p1 = document.getElementsByTagName("p")[0]; //Pega o Elemento pela Tag e especifica em conchetes que é o Primeiro'[0]'
+      window.document.write(p1.innerText); //Escrevendo oque se encontra no primeiro paragrafo
+      */
+
+      /* Alteraçoes Utilizando o Id
+      var d = window.document.getElementById("msg");
+      d.style.background = "green";
+      //d.innerText = "Carregando...";
+      window.document.getElementById('msg').innerText = "Ola!";
+      */
+      var d = window.document.querySelector("div#msg"); // # -> ID  e  . -> class
+      d.style.background = "pink";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+Arvore Dom 
+
+Window -  Objeto dom que representa tudo que se encontra na tela 
+    Location - Diz a Url do Site 
+    Document - Documento atual
+        html -  Parte Html do site
+            Head - Cabeça do site
+                Meta
+                Title
+            body - Corpo
+                H1 
+                p
+                    Strong
+                Div
+    history - Historico de Navegação
+
+
+Ps: Quem está abaixo na arvore se chama child e está ao lado parent ou seja 
+Expl:
+    Teto - 
+    Childs:
+        Portas -  Parents
+        Janelas - Parants
+
+
+Meios de selecionar/Acessar Metodos Dom Da Arvore mostrada acima: 
+    -por Marca Tag ( getElementsBytagName() )
+    -ID (GetElementbyId())
+    -Nome (getElementsbyName())
+    -Classe (getElementsByClassName())
+    -Seletor (querySelector() or querySelectorAll() //Para selecionar todos)
+
+
+Ps: InnerText: Tras apenas o Texto 
+    InnerHtml Tras todo o Html do local solicitado
+

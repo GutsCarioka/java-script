@@ -1,0 +1,53 @@
+Console.log("Ola Mundo): Utilizado para escrever no Console
+console= Objeto 
+log= ação 
+let Nickname
+let = variavel
+Nickname = Nome da variavel
+Concatenação= quando juntamos duas coisas (Normalmente: Juntando uma parte fixa com uma que varia)
+const : constante 
+
+Tipo de Variável	Descrição
+Variáveis numéricas:	São usadas para armazenar valores numéricos.
+Inteiro:	Armazena números inteiros, como 1, 10, -5.
+Ponto flutuante ou decimal:	Armazena números com casas decimais, como 3.14, -0.5.
+Números complexos:	Armazena números complexos, como 2+3.
+Variáveis de texto:	Usadas para armazenar sequências de caracteres.
+String:	Armazena uma sequência de caracteres, como "Olá, mundo!"
+Caractere:	Armazena um único caractere, como 'a', 'X', '@'.
+Variáveis lógicas:	Usadas para armazenar valores de verdadeiro ou falso.
+Booleano:	Armazena os valores True ou False.
+Variáveis de data e hora:	Utilizadas para representar datas e horários.
+Data:	Armazena datas, no formato AAAA-MM-DD.
+Hora:	Armazena horários, no formato HH:MM:SS.
+
+Vetores e Matrizes: 
+é tipo uma array:uma variavel onde aplicamos mais de um objeto e depois nos referenciamos a ele. 
+
+
+
+Expl-Vetores:
+    let pokemon = ["Pikachu", "charmander", "Bulbasaur"]
+    console.log(pokemon[0])
+
+    Resultado= Pikachu 
+
+
+Switch Case: 
+    Estrutura de descisão 
+    Nomeclaturas: Switch/case/break/default
+
+
+
+Listas (ARRAYS ): Lista de informaçoes atreladas a uma string
+Representadas por : []
+Expl: 
+    Const alunos['carlos','luiz','henrique']
+    console.log(alunos[0])//Os numeros são para puxar a informação dentro da array(0 = carlos, 1=luiz, 2=henrique)
+
+    Alunos.push(Vinicius);  // Add novas informaçoes a array
+    Alunos[4] = 'Vinicius';  //Tambem adiciona só que em uma casa especifica 
+    lista.leangth  //diz o tamanho da lista
+
+
+

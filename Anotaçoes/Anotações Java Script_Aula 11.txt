@@ -1,0 +1,9 @@
+Condiçoes
+
+Estrutura Base de uma Condição IF: 
+
+if(Condição){
+    True
+}else{
+    False
+}
