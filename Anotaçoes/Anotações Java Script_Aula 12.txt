@@ -1,0 +1,57 @@
+Condiçoes
+
+Estrutura Base de uma Condição IF: 
+
+if(Condição){
+    True
+}else{
+    False
+}
+
+
+Condiçoes Aninhadas: 
+    Condiçoes que tem Condiçoes dentro
+    Expl:
+
+    if(Condição){
+        True
+        if(Condiçoes){
+            True
+        }
+    }else{
+       if(Condiçoes){
+            True
+        }else{
+
+        }
+    }
+
+    Ou 
+    if(Condição){
+        True
+        if(Condiçoes){
+            True
+        }
+    }else if(Condiçoes){
+            True
+        }else{
+
+    }
+
+Condicão multipla: 
+    Faz uma ação no segundo que um dos case's é verdadeiro 
+     Switch (expressao){
+        case valor 1:
+
+            break (OBRIGATORIO PARA O FUNCIONAMENTO DO CASE)
+        case valor 2: 
+
+            break (OBRIGATORIO PARA O FUNCIONAMENTO DO CASE)
+        caso valor 3: 
+
+            break (OBRIGATORIO PARA O FUNCIONAMENTO DO CASE)
+        default:
+            
+            break (OBRIGATORIO PARA O FUNCIONAMENTO DO CASE)
+     }
+    
